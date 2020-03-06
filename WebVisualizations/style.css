@@ -1,0 +1,83 @@
+body{
+       background-size: cover;
+
+}
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 35px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color:rgb(12, 86, 204);
+}
+
+.nav-item
+{
+ text-transform: capitalize;   
+}
+
+.navbar-toggler {
+    font-size: 25px;
+     background-color: rgb(12, 86, 204);
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    opacity: 1;
+    position:absolute ;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.p1 {
+    text-align: center;
+}
+
+.table {
+    width: auto;
+}
+.box {
+    padding: 10px 10px; 
+    background-color:white;
+    padding-left: 150px;
+
+  }
+
+  .fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 300px; 
+    }
+    
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 600px) {
+    /* .navbar li {
+      padding: 10px; */
+    }
+  
+  
+.title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(12, 86, 204)
+  }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(14, 56, 124); 
+    color: white;
+    text-align: center;
+    border-top-style: solid; 
+    border-top-color: white;
+     height: 30px; 
+    font-size: 14px; 
+    padding-top: 10px; 
+    border: black;
+    color: white; 
+    
+    }
